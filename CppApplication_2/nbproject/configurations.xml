@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>Datos.h</itemPath>
+      <itemPath>Ejemplos.h</itemPath>
+      <itemPath>Lectura.h</itemPath>
+      <itemPath>Neurona.h</itemPath>
+      <itemPath>Red.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>Datos.cpp</itemPath>
+      <itemPath>Ejemplos.cpp</itemPath>
+      <itemPath>Lectura.cpp</itemPath>
+      <itemPath>Neurona.cpp</itemPath>
+      <itemPath>Red.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+      </compileType>
+      <item path="Datos.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Datos.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Ejemplos.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Ejemplos.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Lectura.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Lectura.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Neurona.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Neurona.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Red.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Red.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="Datos.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Datos.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Ejemplos.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Ejemplos.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Lectura.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Lectura.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Neurona.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Neurona.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Red.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Red.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
